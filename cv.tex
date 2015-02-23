@@ -1,0 +1,141 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage[inline]{enumitem}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{Kevin}{PLATEL}
+      {Software developer}
+      
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{Address}
+    9 Otham close,
+    Canterbury, CT2 7QX
+    England
+    ~
+  \section{Tel \& Skype}
+    +44 7541 481059
+    platel.kevin
+    ~
+  \section{Mail}
+    \href{mailto:platel.kevin@gmail.com}{\textbf{platel.kevin@}\\gmail.com}
+    \href{mailto:kevin.platel@epitech.eu}{\textbf{kevin.platel@}\\epitech.eu}
+    ~
+  \section{Web \& Git}
+    \href{https://github.com/platelk}{github.com/platelk}
+    \href{http://stackoverflow.com/users/3676180/vink}{stackoverflow.com/vink}
+    ~
+  \section{OS Preference}
+    \textbf{GNU/Linux}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Windows}\includegraphics[scale=0.40]{img/4stars.png}
+    ~
+  \section{Personal Skills}
+    \textbf{Team player}
+    \textbf{Curiosity}
+    \textbf{Initiative}
+    ~
+  \section{Languages}
+  \textbf{French}\includegraphics[scale=0.40]{img/5stars.png}
+  \textbf{English}\includegraphics[scale=0.40]{img/4stars.png}
+\end{aside}
+
+\section{Experience}
+\begin{entrylist}
+  \entry
+    {10/14 - Now}
+    {Teacher Assistant}
+    {University of Kent, Canterbury, England}
+    {Assistant for practical session of the 'Software development' and 'Object Oriented Programming' module
+    \begin{FlushRight}\textit{Java, UML}\end{FlushRight}~}
+  \entry
+    {11/13 - 07/14}
+    {Software Development Internship}
+    {POC\&Demo team, Technicolor, Rennes, France}
+    {Working on: auto-connect solution of screen mirroring based on Miracast, Optimization of bandwidth in a local network for HTTP video streaming, Chromecast protocol analysis for integrations on product, creation of a android Launcher for android based setup-box optimize for big screen \begin{FlushRight}\textit{Android, Java, Network}\end{FlushRight} ~}
+    \entry
+    {02/13 - 07/13}
+    {Teacher Assistant}
+    {Epitech, Rennes, France}
+    {Teacher assistant for the first years student. Mostly for C programming and Algorithm.
+    \begin{FlushRight}\textit{C, Basic Algorithm}\end{FlushRight} ~}
+    \entry
+    {08/12 - 12/12}
+    {Internship}
+    {Epitech, Rennes, France}
+    {Creation of a Proof of concept video teaching platform for Epitech.
+    \begin{FlushRight}\textit{HTML, CSS, Javascript}\end{FlushRight}}
+
+\end{entrylist}
+
+\section{Education}
+\begin{entrylist}
+  \entry
+    {2011 - 2016}
+    {Master's Degree in Computer Engineering}
+    {Epitech, France}
+    {Main subjects: Software development (\textit{C/C++,Java,Python}), Systems Architecture and Security, Mobile Applications, Network.\\
+    \emph{Epitech Innovative Project: \href{http://followheart.fr}{Followheart}.}\\
+    \emph{Medical solution (Mobile app \& website) for collecting and analyzing patient information to prevent heart relapses.}\\
+    \emph{Technology used: Dart, Android, Polymer, Angular}\\}
+  \entry
+    {2014 - 2015}
+    {Master's Degree in Computer Engineering}
+    {University of Kent, England}
+    {Main subjects: Network \& Network security, Computer security, Mobile programming and Natural computation\\
+    \emph{Title of the Thesis: "Optimization of computer programming language parsing in high modification context".}\\
+    \emph{Relater: Prof. Olaf Chitil}\\}
+  \entry
+    {2008 - 2011}
+    {Scientific Diploma.}
+    {lycée camille claudel, Blain, France}
+    {Scientific Secondary School.\\
+    Main subjects: Matematics, Physics, Engineering Science.}
+\end{entrylist}
+
+\section{Skills}
+    {\Large {\textbf Programming language:}}\\
+    \begin{enumerate*}
+      \item[-] \textbf{C/C++}\includegraphics[scale=0.40]{img/5stars.png}
+      \item[-] \textbf{Dart}\includegraphics[scale=0.40]{img/5stars.png}
+      \item[-] \textbf{Python}\includegraphics[scale=0.40]{img/4stars.png}
+      \item[-] \textbf{Java}\includegraphics[scale=0.40]{img/4stars.png}
+      \item[-] \textbf{Web}\includegraphics[scale=0.40]{img/4stars.png}
+      \item[-] \textbf{Android}\includegraphics[scale=0.40]{img/4stars.png}
+      \item[-] \textbf{Ruby}\includegraphics[scale=0.40]{img/2stars.png}
+    \end{enumerate*}~\\
+    {\Large {\textbf Other:}}\\
+    \begin{enumerate*}
+      \item[-] \textbf{System administration}\includegraphics[scale=0.40]{img/4stars.png}
+      \item[-] \textbf{Network}\includegraphics[scale=0.40]{img/4stars.png}
+      \item[-] \textbf{User experience}\includegraphics[scale=0.40]{img/2stars.png}
+    \end{enumerate*}
+%\section{Certifications}
+%\begin{entrylist}
+%  \entry
+%    {02/2013}
+%    {Intro to Computer Science}
+%    {Udacity. E-learning}
+%    {\emph{Building a Python Search Engine}}
+%\end{entrylist}
+\end{document}
