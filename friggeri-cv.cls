@@ -96,7 +96,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \RequirePackage{tikz}
 
 \newcommand{\rolefont}{%
-  \fontsize{13pt}{22pt}\selectfont%
+  \fontsize{11pt}{20pt}\selectfont%
   \thinfont%
   \color{white}%
 }
@@ -105,15 +105,15 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=3cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
-      \fontsize{30pt}{62pt}\color{header}%
+      \fontsize{25pt}{52pt}\color{header}%
       {\thinfont #1}{\bodyfont  #2}
     };
     \node [anchor=north] at (name.south) {%
-      \fontsize{14pt}{24pt}\color{pblue}%
+      \fontsize{8pt}{22pt}\color{pblue}%
       \bodyfont #3%
     };
   \end{tikzpicture}
-  \vspace{0.5cm}
+  \vspace{0.3cm}
   \vspace{-2\parskip}
 }
 
@@ -158,7 +158,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \renewcommand{\section}[1]{
   \par\vspace{\parskip}
   {%
-    \LARGE\headingfont\color{headercolor}%
+    \Large\headingfont\color{headercolor}%
     \@sectioncolor #1%
   }
   \par\vspace{\parskip}
@@ -205,7 +205,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{pblue} ##1}
   }
-  \begin{textblock}{3.6}(2.0, 0.55)
+  \begin{textblock}{4.0}(1.0, 0.55)
   \begin{flushright}
   \obeycr
 }{%

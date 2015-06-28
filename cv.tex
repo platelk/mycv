@@ -1,5 +1,5 @@
 %!TEX TS-program = xelatex
-\documentclass[]{friggeri-cv}
+\documentclass[10pt]{friggeri-cv}
 \usepackage{afterpage}
 \usepackage{hyperref}
 \usepackage{color}
@@ -7,11 +7,11 @@
 \usepackage{ragged2e}
 \usepackage[inline]{enumitem}
 \hypersetup{
-    pdftitle={},
-    pdfauthor={},
-    pdfsubject={},
-    pdfkeywords={},
-    colorlinks=false,       % no lik border color
+    pdftitle={platelk_cv},
+    pdfauthor={Kevin PLATEL},
+    pdfsubject={CV},
+    pdfkeywords={CV,software},
+    colorlinks=false,       % no link border color
    allbordercolors=white    % white border color for all
 }
 \addbibresource{bibliography.bib}
@@ -23,66 +23,70 @@
       {Software developer}
       
 % Fake text to add separator      
-\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-1\fboxsep-1\fboxrule}{%
 .....
 }}
 
 % In the aside, each new line forces a line break
 \begin{aside}
   \section{Address}
-    9 Otham close,
-    Canterbury, CT2 7QX
-    England
-    ~
+    le vieux dresny,
+    Pléssé, 44 630,
+    France
   \section{Tel \& Skype}
-    +44 7541 481059
+    +33 6 29 97 38 50
     platel.kevin
-    ~
   \section{Mail}
     \href{mailto:platel.kevin@gmail.com}{\textbf{platel.kevin@}\\gmail.com}
     \href{mailto:kevin.platel@epitech.eu}{\textbf{kevin.platel@}\\epitech.eu}
-    ~
   \section{Web \& Git}
     \href{https://github.com/platelk}{github.com/platelk}
     \href{http://stackoverflow.com/users/3676180/vink}{stackoverflow.com/vink}
-    ~
+    \href{http://fr.linkedin.com/in/platelkevin}{linkedin.com/in/platelkevin}
   \section{OS Preference}
     \textbf{GNU/Linux}\includegraphics[scale=0.40]{img/5stars.png}
     \textbf{Windows}\includegraphics[scale=0.40]{img/4stars.png}
-    ~
   \section{Personal Skills}
     \textbf{Team player}
     \textbf{Curiosity}
     \textbf{Initiative}
-    ~
   \section{Association}
-    \textbf{* C++ Assistant Epitech (Koala)}
-    \textbf{* Epitech Security Lab Rennes (2013-2014)}
-    ~
+    \textbf{- C++ Assistant Epitech (Koala)}
+    \textbf{- Epitech Security Lab Rennes (2013-2014)}
   \section{Languages}
-  \textbf{French}\includegraphics[scale=0.40]{img/5stars.png}
-  \textbf{English}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{French}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{English}\includegraphics[scale=0.40]{img/4stars.png}
+  \section{Hobbies}
+    Video Games
+    Reading
+    Swimming
 \end{aside}
 
 \section{Experience}
 \begin{entrylist}
+\entry
+    {06/15 - Now}
+    {Software developer}
+    {ProfileRH, Paris, France}
+    {Back-end developer for a web platform to simplify human resources in company. I had to put in place the global architectures and start the prprojectwe choose to use micro-services with node.js and Typescript.
+    \begin{FlushRight}\textit{Typescript, Node.js, Micro-service}\end{FlushRight}}
   \entry
-    {10/14 - Now}
+    {10/14 - 05/15}
     {Teacher Assistant}
     {University of Kent, Canterbury, England}
     {Assistant for practical session of the 'Software development' and 'Object Oriented Programming' module
-    \begin{FlushRight}\textit{Java, UML}\end{FlushRight}~}
+    \begin{FlushRight}\textit{Java, UML}\end{FlushRight}}
   \entry
     {11/13 - 07/14}
     {Software Development Internship}
     {POC\&Demo team, Technicolor, Rennes, France}
-    {Working on: auto-connect solution of screen mirroring based on Miracast, Optimization of bandwidth in a local network for HTTP video streaming, Chromecast protocol analysis for integrations on product, creation of a android Launcher for android based setup-box optimize for big screen \begin{FlushRight}\textit{Android, Java, Network}\end{FlushRight} ~}
+    {Working on: auto-connect solution of screen mirroring based on Miracast, Optimization of bandwidth in a local network for HTTP video streaming, Chromecast protocol analysis for integrations on product, creation of a android Launcher for android based setup-box optimize for big screen \begin{FlushRight}\textit{Android, Java, Network}\end{FlushRight}}
     \entry
     {02/13 - 07/13}
     {Teacher Assistant}
     {Epitech, Rennes, France}
     {Teacher assistant for the first years student. Mostly for C programming and Algorithm.
-    \begin{FlushRight}\textit{C, Basic Algorithm}\end{FlushRight} ~}
+    \begin{FlushRight}\textit{C, Basic Algorithm}\end{FlushRight}}
     \entry
     {08/12 - 12/12}
     {Internship}
@@ -93,25 +97,27 @@
 
 \section{Skills}
     \begin{enumerate}
-        \item[-] {\Large {\textbf Programming language:}}\\
+        \item[-] {\large {\textbf Programming language:}}\\
             \begin{enumerate*}
-              \item[-] \textbf{Java}
-              \item[-] \textbf{Dart}
-              \item[-] \textbf{C/C++}
-              \item[-] \textbf{Python}
-              \item[-] \textbf{Web}
-              \item[-] \textbf{Android}
-              \item[-] \textbf{Ruby}
+              \item[-] Java
+              \item[-] Dart
+              \item[-] C/C++
+              \item[-] Python
+              \item[-] Web
+              \item[-] Android
+              \item[-] Typescript
+              \item[-] Javascript
             \end{enumerate*}
-        \item[-] {\Large {\textbf Other:}}\\
+        \item[-] {\large {\textbf Other:}}\\
             \begin{enumerate*}
-              \item[-] \textbf{System administration}
-              \item[-] \textbf{Network}
-              \item[-] \textbf{User experience}
-              \item[-] \textbf{Git/SVN}
-              \item[-] \textbf{Unity}
-              \item[-] \textbf{Polymer}
-              \item[-] \textbf{Angular}
+              \item[-] System administration
+              \item[-] Network
+              \item[-] Node.js
+              \item[-] Software Architecture
+              \item[-] Git/SVN
+              \item[-] Unity
+              \item[-] Polymer
+              \item[-] Angular
             \end{enumerate*}
     \end{enumerate}
 
@@ -132,12 +138,7 @@
     {Main subjects: Network \& Network security, Computer security, Mobile programming and Natural computation\\
     \emph{Title of the Thesis: "Optimization of computer programming language parsing in high modification context".}\\
     \emph{Relater: Prof. Olaf Chitil}\\}
-  \entry
-    {2008 - 2011}
-    {Scientific Diploma.}
-    {lycée camille claudel, Blain, France}
-    {Scientific Secondary School.\\
-    Main subjects: Matematics, Physics, Engineering Science.}
+
 \end{entrylist}
 
 \end{document}
