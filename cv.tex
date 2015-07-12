@@ -1,5 +1,5 @@
 %!TEX TS-program = xelatex
-\documentclass[10pt]{friggeri-cv}
+\documentclass[8pt]{friggeri-cv}
 \usepackage{afterpage}
 \usepackage{hyperref}
 \usepackage{color}
@@ -19,11 +19,12 @@
 \definecolor{pblue}{HTML}{0395DE}
 
 \begin{document}
+\begin{samepage}
 \header{Kevin}{PLATEL}
       {Software developer}
       
 % Fake text to add separator      
-\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-1\fboxsep-1\fboxrule}{%
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
 .....
 }}
 
@@ -37,8 +38,8 @@
     +33 6 29 97 38 50
     platel.kevin
   \section{Mail}
-    \href{mailto:platel.kevin@gmail.com}{\textbf{platel.kevin@}\\gmail.com}
-    \href{mailto:kevin.platel@epitech.eu}{\textbf{kevin.platel@}\\epitech.eu}
+    \href{mailto:platel.kevin@gmail.com}{platel.kevin@gmail.com}
+%    \href{mailto:kevin.platel@epitech.eu}{\textbf{kevin.platel@}\\epitech.eu}
   \section{Web \& Git}
     \href{https://github.com/platelk}{github.com/platelk}
     \href{http://stackoverflow.com/users/3676180/vink}{stackoverflow.com/vink}
@@ -60,6 +61,8 @@
     Video Games
     Reading
     Swimming
+    TV Show \& Movie
+    Role Play
 \end{aside}
 
 \section{Experience}
@@ -68,77 +71,76 @@
     {06/15 - Now}
     {Software developer}
     {ProfileRH, Paris, France}
-    {Back-end developer for a web platform to simplify human resources in company. I had to put in place the global architectures and start the prprojectwe choose to use micro-services with node.js and Typescript.
-    \begin{FlushRight}\textit{Typescript, Node.js, Micro-service}\end{FlushRight}}
+    {Full-Stack developer for a web platform to simplify human resources management in company. I had to put in place the global architecture and start the project. We choose to use micro-services with Node.js and Typescript. link : \href{http://datandpeople.com/}{datandpeople.com}
+    \begin{FlushRight}\textit{Typescript, Node.js, AngularJS, HTML5/CSS3}\end{FlushRight}}
   \entry
     {10/14 - 05/15}
     {Teacher Assistant}
     {University of Kent, Canterbury, England}
-    {Assistant for practical session of the 'Software development' and 'Object Oriented Programming' module
-    \begin{FlushRight}\textit{Java, UML}\end{FlushRight}}
+    {Assistant for practical session of the 'Software development' and 'Object Oriented Programming' modules for the 1st and 2nd Years students. My main job was to help students to assimilate software development concept seen in lectures like OOP or versioning tools and mark their assessments
+    \begin{FlushRight}\textit{Java, UML, Git, Education}\end{FlushRight}}
   \entry
     {11/13 - 07/14}
     {Software Development Internship}
     {POC\&Demo team, Technicolor, Rennes, France}
     {Working on: auto-connect solution of screen mirroring based on Miracast, Optimization of bandwidth in a local network for HTTP video streaming, Chromecast protocol analysis for integrations on product, creation of a android Launcher for android based setup-box optimize for big screen \begin{FlushRight}\textit{Android, Java, Network}\end{FlushRight}}
-    \entry
-    {02/13 - 07/13}
+  \entry
+    {08/12 - 07/13}
     {Teacher Assistant}
     {Epitech, Rennes, France}
-    {Teacher assistant for the first years student. Mostly for C programming and Algorithm.
-    \begin{FlushRight}\textit{C, Basic Algorithm}\end{FlushRight}}
-    \entry
-    {08/12 - 12/12}
-    {Internship}
-    {Epitech, Rennes, France}
-    {Creation of a Proof of concept video teaching platform for Epitech.
-    \begin{FlushRight}\textit{HTML, CSS, Javascript}\end{FlushRight}}
+    {Assistant for the first years students. I had to teach, follow, mark students and do everything possible to teach them how to write program in C. To do so, i had to explain concept like memory management, pointers, recursivity, ... 
+    \begin{FlushRight}\textit{C, Basic Algorithm, Education}\end{FlushRight}}
 \end{entrylist}
 
 \section{Skills}
     \begin{enumerate}
-        \item[-] {\large {\textbf Programming language:}}\\
+        \item[-] {\large {\textbf Programming languages:}}\\
             \begin{enumerate*}
-              \item[-] Java
-              \item[-] Dart
               \item[-] C/C++
+              \item[-] Golang
+              \item[-] Dart
+              \item[-] Java
               \item[-] Python
-              \item[-] Web
-              \item[-] Android
+              \item[-] Ruby
               \item[-] Typescript
-              \item[-] Javascript
+              \item[-] JavaScript
             \end{enumerate*}
         \item[-] {\large {\textbf Other:}}\\
             \begin{enumerate*}
+              \item[-] Android
               \item[-] System administration
               \item[-] Network
-              \item[-] Node.js
+              \item[-] Security
               \item[-] Software Architecture
               \item[-] Git/SVN
-              \item[-] Unity
+              \item[-] Web
+              \item[-] Node.js
               \item[-] Polymer
               \item[-] Angular
+              \item[-] Unity
             \end{enumerate*}
     \end{enumerate}
-
 \section{Education}
 \begin{entrylist}
   \entry
-    {2011 - 2016}
+    {2014 - 2016}
     {Master's Degree in Computer Engineering}
     {Epitech, France}
     {Main subjects: Software development (\textit{C/C++,Java,Python}), Systems Architecture and Security, Mobile Applications, Network.\\
-    \emph{Epitech Innovative Project: \href{http://followheart.fr}{Followheart}.}\\
-    \emph{Medical solution (Mobile app \& website) for collecting and analyzing patient information to prevent heart relapses.}\\
-    \emph{Technology used: Dart, Android, Polymer, Angular}\\}
+    \emph{Master's Thesis Project: \href{http://followheart.fr}{Followheart}.}\\
+    \emph{Medical solution (Mobile app \& website) for collecting and analyzing patient information to prevent heart relapses.}\\}
   \entry
     {2014 - 2015}
-    {Master's Degree in Computer Engineering}
+    {MSc Network \& Network Security}
     {University of Kent, England}
-    {Main subjects: Network \& Network security, Computer security, Mobile programming and Natural computation\\
-    \emph{Title of the Thesis: "Optimization of computer programming language parsing in high modification context".}\\
-    \emph{Relater: Prof. Olaf Chitil}\\}
-
+    {Main subjects: Network \& Network security, Computer security, Ubiquitous programming and Natural computation\\
+    \emph{Master's Thesis Project: "Optimization of computer programming language parsing in high modification context".}
+    \emph{(Adviser: Prof. Olaf Chitil)}\\}
+     \entry
+    {2011 - 2014}
+    {Bachelor in Information Technology}
+    {Epitech, France}
+    {Main subjects: Software development (\textit{C/C++,Java,Python}), Systems Architecture and Security, Network.}
 \end{entrylist}
-
+\end{samepage}
 \end{document}

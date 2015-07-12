@@ -103,17 +103,17 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 
 \newcommand{\header}[3]{%
   \begin{tikzpicture}[remember picture,overlay]
-    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=3cm] (box) at (current page.north){};
+    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=2.2cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
-      \fontsize{25pt}{52pt}\color{header}%
+      \fontsize{25pt}{30pt}\color{header}%
       {\thinfont #1}{\bodyfont  #2}
     };
     \node [anchor=north] at (name.south) {%
-      \fontsize{8pt}{22pt}\color{pblue}%
+      \fontsize{10pt}{22pt}\color{pblue}%
       \bodyfont #3%
     };
   \end{tikzpicture}
-  \vspace{0.3cm}
+  \vspace{0.1cm}
   \vspace{-2\parskip}
 }
 
@@ -199,7 +199,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 
 \RequirePackage[absolute,overlay]{textpos}
 \setlength{\TPHorizModule}{1cm}
-\setlength{\TPVertModule}{1cm}
+\setlength{\TPVertModule}{3.4cm}
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
